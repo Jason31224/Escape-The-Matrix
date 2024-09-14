@@ -1,0 +1,123 @@
+body {
+  background: linear-gradient(135deg, rgb(9, 40, 1) -60%, black);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  z-index: 1000; /* Ensure header stays above other content */
+}
+
+.logo-link {
+  margin: 0 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.x{
+  top: 100px;
+  left: 50px;
+}
+
+.telegram{
+  top: 90px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header h6 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.green {
+  /* color: rgb(18, 64, 7); */
+  color: #8FFE09;
+}
+
+main {
+  background: linear-gradient(135deg, black 60%, rgb(13, 55, 2));
+  padding: 20px;
+  margin: 0;
+  height: calc(100vh - 200px); /* Adjust height to account for fixed header */
+  color: white;
+  padding-top: 220px; /* Add padding-top to avoid overlap */
+}
+section{
+  margin-bottom: 40px;
+}
+
+li{
+  margin: 12px 0;
+}
+
+.indent {
+  margin-left: 1rem
+}
+
+main h2 {
+  color: rgb(25, 81, 11);
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: rgb(25, 81, 11);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-left: 65px;
+}
+
+.cta-button:hover {
+  background-color: #8FFE09;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  background-color: black;
+}
+
+
+
+.Tate{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 50%;
+  left: 32px;
+  top: 408px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 1px;
+}
